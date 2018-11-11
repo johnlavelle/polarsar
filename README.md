@@ -1,5 +1,5 @@
 
-# SAR Polarmatery Change Detection
+# SAR Polarimetry Change Detection
 
 analyse_covariance_matrix.ipynb shows an analysis of the SAR Polarmatery data.
 
