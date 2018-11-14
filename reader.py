@@ -8,7 +8,7 @@ def read_covar_matrix(fname):
 	dname_zarr = fname.replace('.mat', '.zarr')
 	if not exists(dname_zarr):
 		covMat = sio.loadmat(fname)
-		names = ['fl063_c', 'fl063_l', 'fl064_c', 'fl064_l', 'fl065_c', 'fl065_l', 'fl068_c']
+		names = ['fl063_c', 'fl063_l', 'fl064_c', 'fl064_l', 'fl065_c', 'fl065_l', 'fl068_c', 'fl068_l']
 		covMats = zip(*(names, covMat['CovMat'][0]))
 
 		def to_darray(cmatrix):
