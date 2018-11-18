@@ -1,2 +1,5 @@
-data/covariance_matrix/*
+*.mat
+*.nc
+fl0*
 *lock*
+
